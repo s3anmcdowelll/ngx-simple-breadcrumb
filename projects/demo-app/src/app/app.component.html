@@ -1,0 +1,9 @@
+<a routerLink="child1">Child 1</a>
+<a routerLink="child2">Child 2</a>
+<router-outlet />
+<ngx-simple-breadcrumb>
+  <ng-template let-breadcrumb>
+    <a [routerLink]="breadcrumb.route">{{breadcrumb.label}}</a>
+  </ng-template>
+  <ng-template #separator> > </ng-template>
+</ngx-simple-breadcrumb>
