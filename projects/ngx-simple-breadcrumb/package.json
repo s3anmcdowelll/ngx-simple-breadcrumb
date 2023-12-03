@@ -1,6 +1,6 @@
 {
   "name": "ngx-simple-breadcrumb",
-  "version": "17.0.1",
+  "version": "17.0.2",
   "peerDependencies": {
     "@angular/common": ">=17.0.0",
     "@angular/core": ">=17.0.0"
@@ -13,9 +13,17 @@
     "angular",
     "bread",
     "crumb",
+    "breadcrumbs",
+    "crumbs",
+    "simple",
     "ng",
     "ngx"
   ],
   "license":"MIT",
-  "sideEffects": false
+  "sideEffects": false,
+  "author": "s3anmcdowell@gmail.com",
+  "bugs": {
+    "url": "https://github.com/s3anmcdowelll/ngx-simple-breadcrumb/issues"
+  },
+  "homepage": "https://github.com/s3anmcdowelll/ngx-simple-breadcrumb#readme"
 }
