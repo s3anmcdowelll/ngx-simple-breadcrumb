@@ -6,10 +6,18 @@ Add a breadcrumb to your Angular app in 5 minutes.
 
 ## Demo App
 
-To run the demo the following from the root of the project.
+To run the demo run the following from the root of the project:
 
 ```shell
-npm install ngx-simple-breadcrumb
+npm start 
+```
+
+## Test
+
+To run the project tests run the following from the root of the project:
+
+```shell
+npm run test 
 ```
 
 ## Versioning
